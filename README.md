@@ -1,6 +1,6 @@
 # Scrappy KMeans Project
-- [trying_kmeans.py (FINAL VERSION)](https://github.com/choucurtis987/custom_projects/blob/master/kmeans_stuff/trying_kmeans.py) 
-- [basic use of kmeans algorithm](https://github.com/choucurtis987/custom_projects/blob/master/kmeans_stuff/basic_use_of_kmeans.py)
+- [trying_kmeans.py (FINAL VERSION)](/trying_kmeans.py) 
+- [basic use of kmeans algorithm](/basic_use_of_kmeans.py)
 
 ## My K-Means Algorithm Built From Scratch
 - The algorithm ultilizes a variety of Python data structures and OOP to group data together
