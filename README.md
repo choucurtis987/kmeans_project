@@ -3,10 +3,10 @@
 - [basic use of kmeans algorithm](/basic_use_of_kmeans.py)
 
 ## My K-Means Algorithm Built From Scratch
-- The algorithm ultilizes a variety of Python data structures and OOP to group data together
-- Ultilizes Python Libraries such as Numpy and Matplotlib
-- Groups a set of datapoints together based on K amount of groups
-- Returns a Python dictionary where the key is group number and value is an array of array points
+- Ultilizes a variety of Python data structures and OOP to group data together into K amount of groups
+- Has features similar to sklearn KMeans where centroids and an array of labels can be displayed 
+- Returns a Python dictionary where the key is group number(class) and value is an array of array points in that class/group
+- Can be used on grayscale images that can be reshaped into shape (-1,2)
 
 ## Intro to KMeans Clustering (How it works)
 - KMeans is an unsupervised machine learning algorithm. 
