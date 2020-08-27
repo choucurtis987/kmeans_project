@@ -19,11 +19,12 @@
 - ex. market segmentation, image segmentation, fraud detection, etc 
 
 ## Abstract
-- a visualization of what the algorithm does
+- under construction (see images folder for old abstract)
+<!--
 <img src="/images/readme1.png" width="1000" height="400">
 <img src="/images/readme2.png" width="1000" height="400">
 <img src="/images/readme3.png" width="1000" height="400">
-
+-->
 ## Future Directions
 - Build a more accurate model that classfies and groups data more accurately
 - Decrease runtime allowing model to operate on larger images/data
