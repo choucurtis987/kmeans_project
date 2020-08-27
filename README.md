@@ -16,7 +16,7 @@
 
 ## Purpose of KMeans
 - "group similar data points together and discover underlying patterns" as stated by AndreyBu 
-- ex. market segmentation and fraud detection 
+- ex. market segmentation, image segmentation, fraud detection, etc 
 
 ## Abstract
 - a visualization of what the algorithm does
@@ -26,4 +26,6 @@
 
 ## Future Directions
 - Build a more accurate model that classfies and groups data more accurately
-- Implement recursion?
+- Decrease runtime allowing model to operate on larger images/data
+- Modify algorithm so that input shapes can be of (-1,1) making it more flexible
+- Modify algorithm so that RGB images can inputtted 
