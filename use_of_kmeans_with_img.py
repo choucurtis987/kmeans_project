@@ -12,7 +12,7 @@ model = scrap_kmeans(3)
 # image must be in same directory as this py script
 image = skimage.io.imread(sys.argv[1] , as_gray=True)
 # since runtime will increase with larger images, use a small image for shorter runtime:
-# input image shape to model must be a shape that be resized to (-1,2)
+# input image shape to model must be a shape that can be resized to (-1,2)
 new_image = skimage.transform.resize(image=image, output_shape=(300,300))
 # display original image(new_image) before KMeans:
 plt.imshow(new_image, cmap='gray')
