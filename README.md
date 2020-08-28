@@ -25,11 +25,13 @@ In [basic_use_of_kmeans.py](/basic_use_of_kmeans.py) , the K-Means algorithm I b
   <img src="/images/readme1.png" width="100" />
   <img src="/images/readme2.png" width="100" /> 
 </p>
- [The algorithm](/trying_kmeans.py) as stated in the previous sections can display the found centroids and labels as well as return a Python dictionary where we can see which points belong to which class shown below:
+
+[The algorithm](/trying_kmeans.py) as stated in the previous sections can display the found centroids and labels as well as return a Python dictionary where we can see which points belong to which class shown below:
 <p float="left">
   <img src="/images/readme1.png" width="100" />
   <img src="/images/readme2.png" width="100" /> 
 </p>
+
 In [use_of_kmeans_with_img.py](/use_of_kmeans_with_img.py) , the algorithm I built is used on a grayscale image. Once the image is passed through the model, we can use the output to reconstruct the grayscale image with K grayscale colors highlighted. This essentially segments the image by highlighting the dominant grayscale colors. The original image and K-Means applied image can be seen below:
 <p float="left">
   <img src="/images/readme1.png" width="100" />
