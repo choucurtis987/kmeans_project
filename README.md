@@ -20,10 +20,10 @@
 - ex. market segmentation, image segmentation, fraud detection, etc 
 
 ## Abstract
-In [basic_use_of_kmeans.py](/basic_use_of_kmeans.py) , the K-Means algorithm I built is used on random numpy generated data of shape (-1,2). This data is then passed through the algorithm and grouped together into K groups. The original data and grouped data can be seen below:
+In [basic_use_of_kmeans.py](/basic_use_of_kmeans.py) , the K-Means algorithm I built is used on random numpy generated data of shape (-1,2). This data is then passed through the algorithm and grouped together into K groups. The original data and grouped data can be seen below respectively:
 <p float="left">
-  <img src="/images/readme1.png" width="100" />
-  <img src="/images/readme2.png" width="100" /> 
+  <img src="/images/original_data.jpg" width="400" />
+  <img src="/images/kmeans_of_data.jpg" width="400" /> 
 </p>
 
 [The algorithm](/trying_kmeans.py) as stated in the previous sections can display the found centroids and labels as well as return a Python dictionary where we can see which points belong to which class shown below:
@@ -32,10 +32,10 @@ In [basic_use_of_kmeans.py](/basic_use_of_kmeans.py) , the K-Means algorithm I b
   <img src="/images/readme2.png" width="100" /> 
 </p>
 
-In [use_of_kmeans_with_img.py](/use_of_kmeans_with_img.py) , the algorithm I built is used on a grayscale image. Once the image is passed through the model, we can use the output to reconstruct the grayscale image with K grayscale colors highlighted. This essentially segments the image by highlighting the dominant grayscale colors. The original image and K-Means applied image can be seen below:
+In [use_of_kmeans_with_img.py](/use_of_kmeans_with_img.py) , the algorithm I built is used on a grayscale image. Once the image is passed through the model, we can use the output to reconstruct the grayscale image with K grayscale colors highlighted. This essentially segments the image by highlighting the dominant grayscale colors. The original image and K-Means applied image can be seen below respectively:
 <p float="left">
-  <img src="/images/readme1.png" width="100" />
-  <img src="/images/readme2.png" width="100" /> 
+  <img src="/images/connect_4.jpg" width="400" />
+  <img src="/images/kmeans-connect_4.jpg" width="400" /> 
 </p>
 
 <!--
