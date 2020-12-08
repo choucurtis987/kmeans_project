@@ -1,8 +1,8 @@
 # Scrappy K-Means Project
+- [Abstract](#abstract)
 - [My K-Means Algorithm](/trying_kmeans.py) 
 - [Basic use of K-Means algorithm](/basic_use_of_kmeans.py)
 - [Using K-Means algorithm with grayscale images](/use_of_kmeans_with_img.py)
-- [Abstract](#abstract)
 
 ## My K-Means Algorithm Built From Scratch
 - Ultilizes a variety of Python data structures and OOP to group data together into K amount of groups
